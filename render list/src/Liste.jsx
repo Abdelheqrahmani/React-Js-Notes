@@ -4,12 +4,12 @@ const Liste = (props) => {
     
     const itemList = props.items ; 
     const category  = props.category ; 
-    //    fruits.sort((a,b) => a.name.localeCompare(b.name)) ;  alpha compare
-        // fruits.sort((a,b) => b.name.localeCompare(a.name)) ;  // reverse alpha compare
-      
-  // fruits.sort((a,b) => a.calories - b.calories) ; // calories 
+         //    fruits.sort((a,b) => a.name.localeCompare(b.name)) ;  alpha compare
+                 // fruits.sort((a,b) => b.name.localeCompare(a.name)) ;  // reverse alpha compare
 
-      // const lowCalFruit = fruits.filter (fruit => fruit.calories < 100 ) ; 
+                    // fruits.sort((a,b) => a.calories - b.calories) ; // calories 
+
+                        // const lowCalFruit = fruits.filter (fruit => fruit.calories < 100 ) ; 
 
 
     const  listItems =itemList.map(itemList => <li key={itemList.id}>
